@@ -1901,8 +1901,14 @@ mark,
     color: white;
     margin-bottom: 0;
 }
-.category-icons-item-wrapper {
-    margin-bottom: 1em;
+.category-icons-row:first-child {
+    margin-top: 1.5em;
+}
+.category-icons-row {
+    margin-bottom: 1.5em;
+}
+.category-icons-row:last-child {
+    margin-bottom: 0;
 }
 .category-icons-item {
     padding-top: .5em;
@@ -1917,4 +1923,9 @@ mark,
     display: block;
     background-color: #2a2e34;
     padding: .3em .2em;
+}
+
+/* banner */
+#banner-wrapper {
+    margin-top: 2em;
 }

@@ -208,7 +208,7 @@ q:after {
 }
 
 * {
-	outline: none;
+	/*! outline: none; */
 }
 
 strong {
@@ -369,13 +369,13 @@ body {
 	--danger: #dc3545;
 	--light: #f8f9fa;
 	--dark: #343a40;
-	--breakpoint-xs: 0;
-	--breakpoint-sm: 576px;
-	--breakpoint-md: 768px;
-	--breakpoint-lg: 992px;
-	--breakpoint-xl: 1200px;
-	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	/*! --breakpoint-xs: 0; */
+	/*! --breakpoint-sm: 576px; */
+	/*! --breakpoint-md: 768px; */
+	/*! --breakpoint-lg: 992px; */
+	/*! --breakpoint-xl: 1200px; */
+	/*! --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+	/*! --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }
 
 *,
@@ -739,7 +739,7 @@ h3,
 
 h4,
 .h4 {
-	font-size: 1.5rem;
+	/*! font-size: 1.5rem; */
 }
 
 h5,
@@ -1894,7 +1894,7 @@ mark,
 .body-content-section-header {
     background: #2a2e34;
     margin: 2em 0;
-    padding: .4em .6em;
+    padding: .4em .7em;
 }
 .body-content-section-header h4 {
     font-size: 1.1em;
@@ -1923,9 +1923,134 @@ mark,
     display: block;
     background-color: #2a2e34;
     padding: .3em .2em;
+    color: white;
 }
 
 /* banner */
 #banner-wrapper {
     margin-top: 2em;
+}
+/* lesson */
+.lesson-three-column-item-wrapper {
+	position: relative;
+}
+.lesson-three-column-item {
+	border: 1px solid #e9e9e9;
+	background: whitesmoke;
+}
+.lesson-three-column-item .lesson-three-column-item-image-wrapper{
+	padding: .5em .5em 0 .5em;
+}
+.lesson-three-column-item .lesson-three-column-item-image {
+	border: 1px solid #ccc;
+}
+.lesson-three-column-item .lesson-three-column-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: .5em;
+}
+.lesson-three-column-item .lesson-three-column-content {
+	padding: .5em;
+}
+.lesson-three-column-item .lesson-three-column-header h5 {
+	margin-bottom: 0;
+	font-size: 1.1em;
+	color: #ac0e33;
+}
+.lesson-three-column-item .lesson-three-column-meta span {
+	display: inline-block;
+	font-size: .7em;
+	padding-left: 17px;
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.lesson-three-column-meta .share-icon {
+	background-image: url('img/share.png');
+}
+.lesson-three-column-meta .save-icon {
+	background-image: url('img/save.png');
+}
+.lesson-three-column-item .lesson-three-column-excerpt{
+	font-size: .9em;
+	color: #2a2e34;
+}
+.lesson-three-column-item .lesson-three-column-date {
+	padding-right: 23px;
+	background-image: url('img/calendar.png');
+	background-position: right center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+.lesson-three-column-top-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: .8em;
+}
+.lesson-three-column-top-footer .lesson-three-column-author{
+	display: flex;
+	flex-direction: column;
+}
+.lesson-three-column-author .lesson-author-name {
+	color: #ac0e33;
+	font-weight: bolder;
+}
+.lesson-three-column-author .lesson-author-title {
+	font-size: .7em;
+}
+.lesson-footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #2a2e34;
+	color: white;
+	text-align: center;
+}
+.lesson-footer .lesson-amount,
+.lesson-footer .lesson-register-button {
+	padding: .3em;
+	display: inline-block;
+	width: 50%;
+}
+.lesson-footer .lesson-register-button a {
+	display: block;
+	color: white;
+	text-align: center;
+}
+.lesson-three-column-item .lesson-sale-badge-wrapper {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: 50px;
+	height: 50px;
+	background-image: url('img/sale-badge.png');
+	background-size: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 999;
+}
+.lesson-three-column-item .lesson-sale-bage {
+	color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	transform: rotate(-30deg);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.lesson-sale-number {
+    font-size: .8em;
+    line-height: 1.33em;
+}
+.lesson-sale-percent {
+	font-size: .5em;
 }

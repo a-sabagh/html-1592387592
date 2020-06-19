@@ -2083,3 +2083,53 @@ mark,
     font-size: .85em;
     color: #ac0e33;
 }
+/* clinic */
+.row.clinic-row-wrapper {
+    margin-top: 100px;
+}
+.clinic-item {
+	background-image: url('img/clinic-background-combine.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: left bottom;
+	text-align: center;
+	position: relative;
+}
+.clinic-image-wrapper {
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	border: 4px solid #ac0e33;
+	border-radius: 50%;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 16px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -65px;
+}
+.clinic-content-wrapper {
+	padding: 75px 10px 0;
+}
+.clinic-content-wrapper .clinic-title{
+	color: #ac0e33;
+	font-size: 1em;
+	margin-bottom: .4em;
+}
+.clinic-content-wrapper .clinic-excerpt {
+	color: #acacac;
+	font-size: .8em;
+}
+.clinic-more {
+	background: #2a2e34;
+	margin: 0 5px;
+	box-shadow: 0 0 2px black;
+}
+.clinic-more a {
+	display: block;
+	padding: .3em;
+	color: white;
+}

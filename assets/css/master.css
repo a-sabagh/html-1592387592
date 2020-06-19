@@ -2078,3 +2078,8 @@ mark,
  {
 	position: static;
 }
+#lesson-four-column .lesson-column-item .lesson-column-header h5 {
+    margin-bottom: 0;
+    font-size: .85em;
+    color: #ac0e33;
+}

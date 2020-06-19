@@ -1958,7 +1958,7 @@ mark,
 	font-size: 1.1em;
 	color: #ac0e33;
 }
-.lesson-column-item .lesson-column-meta span {
+.lesson-column-item .lesson-column-meta span > a {
 	display: inline-block;
 	font-size: .7em;
 	padding-left: 17px;
@@ -2121,13 +2121,41 @@ mark,
 	color: #acacac;
 	font-size: .8em;
 }
-.i-more {
-	background: #2a2e34;
+.clinic-more {
 	margin: 0 5px;
+}
+.i-more {
+	text-align: center;
+	background: #2a2e34;
 	box-shadow: 0 0 2px black;
 }
 .i-more a {
 	display: block;
 	padding: .3em;
 	color: white;
+}
+/* mentor */
+.mentor-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2em;
+}
+.mentor-column {
+	width: 10%;
+}
+.rating {
+	text-align: center;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+.rating > span.rated:before{
+	content: "\2605";
+	position: absolute;
+	color: yellow;
+}
+.rating > span {
+	display: inline-block;
+	position: relative;
+	font: 19px Georgia,serif;
 }

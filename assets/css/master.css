@@ -1934,31 +1934,31 @@ mark,
 .container.relative-position {
 	position: relative;
 }
-.lesson-three-column-item {
+.lesson-column-item {
 	border: 1px solid #e9e9e9;
 	background: whitesmoke;
 }
-.lesson-three-column-item .lesson-three-column-item-image-wrapper{
+.lesson-column-item .lesson-column-item-image-wrapper{
 	padding: .5em .5em 0 .5em;
 }
-.lesson-three-column-item .lesson-three-column-item-image {
+.lesson-column-item .lesson-column-item-image {
 	border: 1px solid #ccc;
 }
-.lesson-three-column-item .lesson-three-column-header{
+.lesson-column-item .lesson-column-header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: .5em;
 }
-.lesson-three-column-item .lesson-three-column-content {
+.lesson-column-item .lesson-column-content {
 	padding: .5em;
 }
-.lesson-three-column-item .lesson-three-column-header h5 {
+.lesson-column-item .lesson-column-header h5 {
 	margin-bottom: 0;
 	font-size: 1.1em;
 	color: #ac0e33;
 }
-.lesson-three-column-item .lesson-three-column-meta span {
+.lesson-column-item .lesson-column-meta span {
 	display: inline-block;
 	font-size: .7em;
 	padding-left: 17px;
@@ -1966,38 +1966,38 @@ mark,
 	background-repeat: no-repeat;
 	background-position: left center;
 }
-.lesson-three-column-meta .share-icon {
+.lesson-column-meta .share-icon {
 	background-image: url('img/share.png');
 }
-.lesson-three-column-meta .save-icon {
+.lesson-column-meta .save-icon {
 	background-image: url('img/save.png');
 }
-.lesson-three-column-item .lesson-three-column-excerpt{
+.lesson-column-item .lesson-column-excerpt{
 	font-size: .9em;
 	color: #2a2e34;
 }
-.lesson-three-column-item .lesson-three-column-date {
+.lesson-column-item .lesson-column-date {
 	padding-right: 23px;
 	background-image: url('img/calendar.png');
 	background-position: right center;
 	background-size: 20px;
 	background-repeat: no-repeat;
 }
-.lesson-three-column-top-footer {
+.lesson-column-top-footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: .8em;
 }
-.lesson-three-column-top-footer .lesson-three-column-author{
+.lesson-column-top-footer .lesson-column-author{
 	display: flex;
 	flex-direction: column;
 }
-.lesson-three-column-author .lesson-author-name {
+.lesson-column-author .lesson-author-name {
 	color: #ac0e33;
 	font-weight: bolder;
 }
-.lesson-three-column-author .lesson-author-title {
+.lesson-column-author .lesson-author-title {
 	font-size: .7em;
 }
 .lesson-footer {
@@ -2018,7 +2018,7 @@ mark,
 	color: white;
 	text-align: center;
 }
-.lesson-three-column-item .lesson-sale-badge-wrapper {
+.lesson-column-item .lesson-sale-badge-wrapper {
 	position: absolute;
 	top: -0;
 	left: 15px;
@@ -2030,7 +2030,7 @@ mark,
 	background-repeat: no-repeat;
 	z-index: 999;
 }
-.lesson-three-column-item .lesson-sale-bage {
+.lesson-column-item .lesson-sale-bage {
 	color: white;
 	border: 1px solid white;
 	border-radius: 50%;
@@ -2054,8 +2054,8 @@ mark,
 .lesson-sale-percent {
 	font-size: .5em;
 }
-#lesson-three-column .slick-prev,
-#lesson-three-column .slick-next {
+.slick-prev,
+.slick-next {
 	position: absolute;
 	cursor: pointer;
 	width: 25px;
@@ -2065,16 +2065,16 @@ mark,
 	background-repeat: no-repeat;
 	background-size: 50px auto;
 }
-#lesson-three-column .slick-prev {
+.slick-prev {
 	background-position: 0 center;
 	left: 25px;
 }
-#lesson-three-column .slick-next {
+.slick-next {
 	background-position:-25px center;
 	left: 50px;
 }
-.lesson-three-column-slider .slick-list,
-.lesson-three-column-slider.slick-slider
+.lesson-column-slider .slick-list,
+.lesson-column-slider.slick-slider
  {
 	position: static;
 }

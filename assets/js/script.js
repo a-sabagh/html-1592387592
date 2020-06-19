@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    $('.lesson-three-column-slider').slick({
+    $('.lesson-column-slider').slick({
         dots: false,
         slidesToShow: 3,
         slidesToScroll: 1,

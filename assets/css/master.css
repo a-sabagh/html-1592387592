@@ -2073,8 +2073,8 @@ mark,
 	background-position:-25px center;
 	left: 50px;
 }
-.lesson-column-slider .slick-list,
-.lesson-column-slider.slick-slider
+#body-content .slick-list,
+#body-content .slick-slider
  {
 	position: static;
 }
@@ -2084,9 +2084,6 @@ mark,
     color: #ac0e33;
 }
 /* clinic */
-.row.clinic-row-wrapper {
-    margin-top: 100px;
-}
 .clinic-item {
 	background-image: url('img/clinic-background-combine.png');
 	background-repeat: no-repeat;
@@ -2094,6 +2091,7 @@ mark,
 	background-position: left bottom;
 	text-align: center;
 	position: relative;
+	margin-top: 70px;
 }
 .clinic-image-wrapper {
 	width: 130px;

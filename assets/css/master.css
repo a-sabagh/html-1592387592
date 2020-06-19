@@ -1931,7 +1931,7 @@ mark,
     margin-top: 2em;
 }
 /* lesson */
-.lesson-three-column-item-wrapper {
+.container.relative-position {
 	position: relative;
 }
 .lesson-three-column-item {
@@ -2020,8 +2020,8 @@ mark,
 }
 .lesson-three-column-item .lesson-sale-badge-wrapper {
 	position: absolute;
-	top: -10px;
-	left: -10px;
+	top: -0;
+	left: 15px;
 	width: 50px;
 	height: 50px;
 	background-image: url('img/sale-badge.png');
@@ -2053,4 +2053,28 @@ mark,
 }
 .lesson-sale-percent {
 	font-size: .5em;
+}
+#lesson-three-column .slick-prev,
+#lesson-three-column .slick-next {
+	position: absolute;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	top: 6px;
+	background-image: url('img/slider-arrow.png');
+	background-repeat: no-repeat;
+	background-size: 50px auto;
+}
+#lesson-three-column .slick-prev {
+	background-position: 0 center;
+	left: 25px;
+}
+#lesson-three-column .slick-next {
+	background-position:-25px center;
+	left: 50px;
+}
+.lesson-three-column-slider .slick-list,
+.lesson-three-column-slider.slick-slider
+ {
+	position: static;
 }

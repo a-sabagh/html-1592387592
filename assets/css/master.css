@@ -1927,7 +1927,7 @@ mark,
 }
 
 /* banner */
-#banner-wrapper {
+.banner-wrapper {
     margin-top: 2em;
 }
 /* lesson */
@@ -2121,12 +2121,12 @@ mark,
 	color: #acacac;
 	font-size: .8em;
 }
-.clinic-more {
+.i-more {
 	background: #2a2e34;
 	margin: 0 5px;
 	box-shadow: 0 0 2px black;
 }
-.clinic-more a {
+.i-more a {
 	display: block;
 	padding: .3em;
 	color: white;

@@ -1,4 +1,15 @@
 jQuery(document).ready(function($){
+    /** menu toggler*/
+    $(".menu-toggler-wrapper .menu-toggler").on('click',function(e){
+        e.preventDefault();
+        console.log
+        $(this).parent('.menu-toggler-wrapper').next('ul').slideToggle();
+    });
+    $(".responsive-menu-plus").on('click',function(e){
+        e.preventDefault();
+        $(this).next('ul').slideToggle();
+    });
+    /** sliders */
     var slickSlider = $('.i-slick-slider');
     slickSlider.each(function(index){
         let column = $(this).data('column');

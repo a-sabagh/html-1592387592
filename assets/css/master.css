@@ -1807,12 +1807,14 @@ mark,
 	 opacity: 0;
 	 visibility: hidden;
  }
- .main-menu ul li:hover > ul {
-	 display: block;
-	 visibility: visible;
-	 opacity: 1;
-	 margin-top: 0;
-	 transition: all .4s;
+ @media (min-width: 979px){
+	.main-menu ul li:hover > ul {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+		margin-top: 0;
+		transition: all .4s;
+	}
  }
  .main-menu ul li ul li{
 	 display: block;
@@ -1826,6 +1828,64 @@ mark,
  .main-menu ul li ul li a {
 	 color: black;
 	 display: block;
+ }
+ .main-menu .menu-toggler-wrapper {
+	 display: none;
+	 width: 70px;
+ }
+ @media (max-width: 980px){
+	 .main-logo {
+		 width: 100%;
+		max-width: 200px;
+		margin-bottom: .4em;
+	 }
+	 .main-menu .menu-toggler-wrapper {
+		 display: block;
+	 }
+	 .main-menu .menu-toggler{
+		 display: block;
+		 background: #ac0e33;
+		 color: white;
+		 padding: .3em .5em;
+		 cursor: pointer;
+		 border-radius: 5px;
+	 }
+	.main-menu ul {
+		background: white;
+		position: absolute;
+		width: 250px;
+		top: 40px;
+		right: 10px;
+		z-index: 999;
+		display: none;
+		border-top: 2px solid #ac0e33;
+	}
+	.main-menu ul li{
+		display: block;
+	}
+	.main-menu ul {
+		background: white;
+	}
+	.main-menu ul li a {
+		color: black;
+	}
+	.main-menu ul li ul{
+		position: static;
+		visibility: visible;
+		margin-top: 0;
+		opacity: 1;
+	}
+	.main-menu li .responsive-menu-plus {
+		display: block;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		cursor: pointer;
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+	}
  }
  .profile-header-box {
     width: 180px;

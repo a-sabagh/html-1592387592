@@ -2313,6 +2313,7 @@ mark,
 #footer-bottom {
 	background-color: #3e444d;
 	padding: 1em 0;
+	font-size: .9em;
 }
 .footer-content-wrapper {
 	position: relative;

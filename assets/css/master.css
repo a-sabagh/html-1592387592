@@ -1841,6 +1841,15 @@ mark,
     background-position: top left;
     height: 90vh;
 }
+@media (max-width: 768px) {
+	.main-slider {
+		background-size: cover;
+	}
+	.slider-contents {
+		padding: .5em;
+		background-color: rgba(256, 256, 256, 0.7);
+	}
+}
 .slider-contents-wrapper,
 .slider-contents-wrapper .row,
 .slider-contents-wrapper .slider-contents-column {

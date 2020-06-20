@@ -2311,3 +2311,39 @@ mark,
 	width: 130px;
 	height: 40px;
 }
+/*footer bottom*/
+#footer-bottom {
+	background-color: #3e444d;
+	padding: 1em 0;
+}
+.footer-content-wrapper {
+	position: relative;
+}
+.footer-description p {
+	color: white;
+	font-size: .9em;
+	text-align: justify;
+}
+.footer-description,
+.footer-menu-first,
+.footer-menu-second {
+	padding-top: 2.1em;
+}
+.footer-bottom-line {
+	background-color: #ac0e33;
+	position: absolute;
+	width: 92%;
+	height: 2px;
+	top: 20px;
+}
+.footer-menu li{
+	display: block;
+}
+.footer-menu li a {
+	display: block;
+	color: white;
+	padding: .15em 0;
+}
+.footer-logo {
+    max-height: 140px;
+}

@@ -1748,6 +1748,9 @@ mark,
 	}
 }
 /* general */
+.gray-background {
+	background-color: #cecece;
+}
 .text-center {
     text-align: center;
 }

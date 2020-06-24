@@ -1971,15 +1971,18 @@ mark,
 /* slider */
 .main-slider {
     background-image: url('img/header.png');
-    background-size: 100% 90vh;
+    background-size: 100% 95vh;
     background-repeat: no-repeat;
     background-position: top left;
     height: 95vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px){
 	.main-slider {
 		background-size: cover;
 	}
+}
+
+@media (max-width: 980px){
 	.slider-contents {
 		padding: .5em;
 		background-color: rgba(256, 256, 256, 0.7);

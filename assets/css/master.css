@@ -2290,6 +2290,8 @@ mark,
 	width: 100px;
 	position: relative;
 	margin-top: 100px;
+	margin-left: .5%;
+	margin-right: .5%;
 }
 .rating {
 	position: relative;

@@ -136,6 +136,11 @@ p {
 	direction: ltr;
 }
 
+.hidden {
+	display: none !important;
+	transition: all .5s;
+}
+
 
 /* reset */
 
@@ -2279,6 +2284,7 @@ mark,
 	justify-content: center;
 	align-items: center;
 	margin-top: 2em;
+	transition: all .5s;
 }
 .mentor-column {
 	width: 100px;
@@ -2448,6 +2454,7 @@ mark,
 	top: 0;
 	width: 130px;
 	height: 40px;
+	cursor: pointer;
 }
 /*footer bottom*/
 #footer-bottom {

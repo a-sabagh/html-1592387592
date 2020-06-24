@@ -1,8 +1,18 @@
 jQuery(document).ready(function($){
+    /** mentor-row */
+    var mentorWrapper = $("#i-mentor");
+    if(mentorWrapper.length){
+        var firstMentor = mentorWrapper.find(".mentor-row").find('.mentor-item').filter('.hidden').slice(0,10);
+        console.log(firstMentor);
+        firstMentor.removeClass('hidden').addClass('d-flex');
+        $('.cta-arrow').on('click',function(){
+            var firstMentor = mentorWrapper.find(".mentor-row").find('.mentor-item').filter('.hidden').slice(0,10);
+            firstMentor.removeClass('hidden').addClass('d-flex');
+        });
+    }
     /** menu toggler*/
     $(".menu-toggler-wrapper .menu-toggler").on('click',function(e){
         e.preventDefault();
-        console.log
         $(this).parent('.menu-toggler-wrapper').next('ul').slideToggle();
     });
     $(".responsive-menu-plus").on('click',function(e){
@@ -14,7 +24,6 @@ jQuery(document).ready(function($){
     slickSlider.each(function(index){
         let column = $(this).data('column');
         let largeColumn = parseInt(column);
-        console.log(largeColumn);
         let mediumColumn = parseInt(largeColumn-1);
         let smallColumn = 1;
         $(this).slick({

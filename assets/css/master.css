@@ -2053,10 +2053,12 @@ mark,
     margin-bottom: 0;
 }
 .category-icons-item {
-    padding-top: .5em;
-    background: #a9a9a9;
+	padding-top: .5em;
+	background: #a9a9a9;
 	text-align: center;
 	margin-bottom: 1.5em;
+	box-shadow: 0 0 2px 2px #e1dbda;
+	border-radius: 5px;
 }
 .category-icons-item .category-icons-img {
     width: 80px;
@@ -2066,7 +2068,8 @@ mark,
     display: block;
     background-color: #2a2e34;
     padding: .3em .2em;
-    color: white;
+	color: white;
+	border-radius: 0 0 5px 5px;
 }
 
 /* banner */

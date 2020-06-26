@@ -1807,7 +1807,7 @@ mark,
 }
 #top-header .profile-wrapper {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 }
 .main-menu ul {
     padding: 0;
@@ -1884,7 +1884,7 @@ mark,
 	 .main-menu {
 		 display: flex;
 		 align-items: center;
-		 justify-content: end;
+		 justify-content: flex-end;
 		 position: absolute;
 		 left: 0;
 		 top: 0;
@@ -1900,7 +1900,7 @@ mark,
 		left: 2em;
 		top: 0;
 		bottom: 0;
-		justify-content: end;
+		justify-content: flex-end;
 	 }
 	 .second-menu-list {
 		 top: 60px;

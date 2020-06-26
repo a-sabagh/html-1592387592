@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
             firstMentor.removeClass('hidden').addClass('d-flex');
         });
     }
-    /** menu toggler*/
+    /** 
     $(".menu-toggler-wrapper .menu-toggler").on('click',function(e){
         e.preventDefault();
         $(this).parent('.menu-toggler-wrapper').next('ul').slideToggle();
@@ -18,6 +18,12 @@ jQuery(document).ready(function($){
     $(".responsive-menu-plus").on('click',function(e){
         e.preventDefault();
         $(this).next('ul').slideToggle();
+    });
+    */
+   /*.menu-toggler*/
+    $(".menu-toggler").on('click',function(e){
+        e.preventDefault();
+        $(this).next(".second-menu-list").slideToggle();
     });
     /** sliders */
     var slickSlider = $('.i-slick-slider');

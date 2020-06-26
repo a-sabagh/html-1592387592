@@ -1779,7 +1779,7 @@ mark,
 	display: none;
     background: white;
     width: 250px;
-    box-shadow: 0 0 2px 2px #f4f4f4;
+    box-shadow: 0 0 1px 1px #f4f4f4;
     position: absolute;
     z-index: 999;
     left: 10px;
@@ -1790,6 +1790,10 @@ mark,
     padding: .3em .4em;
     border-bottom: 1px solid #eee;
     font-size: .9em;
+}
+.second-menu-list li a:hover {
+	transition: all .4s;
+	margin-right: .3em;
 }
 .align-items-center {
     align-items: center;
